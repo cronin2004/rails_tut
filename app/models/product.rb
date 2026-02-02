@@ -5,5 +5,4 @@ class Product < ApplicationRecord
     has_rich_text :description
     validates :inventory_count, numericality: { greater_than_or_equal_to: 0 }
     validates :name, presence: true
-
 end

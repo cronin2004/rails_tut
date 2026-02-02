@@ -1,4 +1,4 @@
- # app/models/products/notifications.rb
+# app/models/products/notifications.rb
 module Products::Notifications
     extend ActiveSupport::Concern
 
